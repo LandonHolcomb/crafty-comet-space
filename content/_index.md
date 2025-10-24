@@ -104,13 +104,30 @@ sections:
   - block: collection
     id: publications
     content:
-      title: 📄 Publications
-      subtitle: ''
+      title: 📄 Current Research Publications
+      subtitle: 'PhD Work - Quantum Computing & Machine Learning'
       text: ''
       filters:
         folders:
           - publications
         exclude_featured: false
+        exclude:
+          tags:
+            - Undergraduate Work
+    design:
+      view: citation
+  - block: collection
+    id: publications-undergrad
+    content:
+      title: 🎓 Earlier Work
+      subtitle: 'Undergraduate Research - Exoplanet Spectroscopy (Texas A&M)'
+      text: 'Collaborative research on the Exoplanet Transmission Spectroscopy Imager (ETSI) for characterizing exoplanet atmospheres.'
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+        tags:
+          - Undergraduate Work
     design:
       view: citation
   - block: collection

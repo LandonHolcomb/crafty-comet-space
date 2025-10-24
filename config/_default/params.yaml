@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: system
-  color: purple  # Quantum-inspired color theme
+  mode: light
+  color: minimal  # Using minimal theme with custom CSS overrides
 
 # SEO
 marketing:
@@ -17,9 +17,9 @@ marketing:
     description: 'Landon Holcomb - PhD student in Computer Science at Clemson University. Research in quantum computing, quantum machine learning, and quantum algorithms.'
     twitter: ''
   analytics:
-    google_analytics: ''
+    google_analytics: ''  # Add your GA4 measurement ID here (e.g., 'G-XXXXXXXXXX')
     baidu_tongji: ''
-    plausible: ''
+    plausible: ''  # Add your Plausible domain here if using Plausible Analytics
     fathom: ''
     pirsch: ''
   verification:
@@ -40,12 +40,9 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Landon Holcomb. This work is licensed under {license}'
+    notice: '© {year} Landon Holcomb'
     license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      enable: false
 
 # Localization
 locale:

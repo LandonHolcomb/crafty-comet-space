@@ -1,0 +1,83 @@
+/* Custom Color Scheme - Clean Professional Look */
+
+:root {
+  /* Background */
+  --background: #FAFAFA;
+  
+  /* Text */
+  --text: #212529;
+  
+  /* Accent (links/buttons) */
+  --accent: #0F766E;
+  
+  /* Link hover */
+  --accent-hover: #0B5C56;
+}
+
+/* Apply background */
+body {
+  background-color: var(--background) !important;
+  color: var(--text) !important;
+}
+
+/* Remove startup-y gradient */
+.hbx-bg-gradient {
+  background: var(--background) !important;
+  background-image: none !important;
+}
+
+/* Links */
+a {
+  color: var(--accent) !important;
+}
+
+a:hover {
+  color: var(--accent-hover) !important;
+}
+
+/* Buttons */
+.btn-primary,
+.btn {
+  background-color: var(--accent) !important;
+  border-color: var(--accent) !important;
+}
+
+.btn-primary:hover,
+.btn:hover {
+  background-color: var(--accent-hover) !important;
+  border-color: var(--accent-hover) !important;
+}
+
+/* Navigation */
+.navbar {
+  background-color: var(--background) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--text) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--accent) !important;
+}
+
+/* Remove "Powered by" footer text */
+footer .powered-by {
+  display: none !important;
+}
+
+/* Section headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text) !important;
+}
+
+/* Cards and sections */
+.card {
+  background-color: #FFFFFF !important;
+  border-color: #E5E7EB !important;
+}
+
+/* Clean, professional spacing */
+.section {
+  background-color: var(--background) !important;
+}
