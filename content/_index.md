@@ -36,9 +36,9 @@ sections:
         My research sits at the intersection of **quantum computing, machine learning, and algorithm design**. I work on:
         
         - **Quantum Machine Learning (QML)**: Developing and analyzing variational quantum algorithms for machine learning tasks
-        - **Quantum Natural Language Processing (QNLP)**: Applying quantum circuits to NLP problems using compositional approaches
+        - **Quantum Natural Language Processing (QNLP)**: Exploring novel methods to enhance NLP or improve QNLP
         - **Trainability & Optimization**: Understanding and mitigating barren plateaus in variational quantum circuits
-        - **Quantum Applications in Biophysics**: Exploring how quantum algorithms can advance computational biophysics
+        - **Quantum Applications in Physics**: Exploring how quantum algorithms can advance computational physics
         
         I'm passionate about bridging theory and application, and I'm always open to collaboration on quantum computing research.
     design:
@@ -92,21 +92,22 @@ sections:
       title: 'Teaching & Outreach'
       subtitle: ''
       text: |-
-        I'm committed to making quantum computing more accessible through teaching and science communication. I develop educational materials, tutorials, and resources for students and researchers entering the field.
+        One of my main goals is making quantum computing more accessible through teaching and science communication. I'm developing educational materials, tutorials, and resources for students and anyone interested! Keep an eye out for future updates.
+
+        Beyond quantum computing, I've had 
         
         **Teaching Experience:**
-        - **Teaching Assistant - Physics** | Clemson University (2021-2023)
-          - Led lab sections and recitations for undergraduate physics courses
-          - Held office hours and provided one-on-one tutoring
-          - Graded assignments and supported student learning
+        - **Teaching Assistant - Physics** | Clemson University (2024)
+          - Led lab sections for undergraduate physics courses
+          - Guided students through hands on physics experiments
+          - Graded (so many) assignments and supported student learning
         
-        - **Teaching Assistant - Astronomy** | Clemson University (2021-2023)
+        - **Teaching Assistant - Astronomy** | Clemson University (2023-2025)
           - Facilitated lab activities and observational sessions
           - Explained astronomical concepts to undergraduate students
           - Supported course activities during MS Physics program
         
         **Outreach Interests:**
-        - Quantum computing pedagogy and curriculum development
         - Open educational resources for quantum algorithms
         - Workshops and tutorials on Qiskit and PennyLane
     design:

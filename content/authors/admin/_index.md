@@ -102,6 +102,6 @@ languages:
 
 ## About Me
 
-I'm a PhD student in Computer Science at Clemson University, where I focus on **quantum machine learning, variational quantum algorithms, and Quantum Natural Language Processing**. My research explores the intersection of quantum computing, machine learning, and algorithm design.
+I'm a PhD student in Computer Science at Clemson University, where I focus on **quantum machine learning, variational quantum algorithms, and Quantum Natural Language Processing**. My research explores the intersection of quantum computing, machine learning, and algorithm design. I am particularly interested in what QML can reveal about the nature of learning and representation itself, how quantum structure may expose patterns or principles that are hidden to classical models.
 
-Before transitioning to computer science, I completed an MS in Physics at Clemson, working on computational Astrophysics. I'm passionate about bridging theory and application, and making quantum computing more accessible through teaching and science communication.
+Before transitioning to computer science, I completed an MS in Physics at Clemson. I'm passionate about bridging theory and application, and making quantum computing more accessible through teaching and science communication.
