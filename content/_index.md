@@ -17,11 +17,12 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/Landon_Holcomb_CV.pdf
       headings:
         about: ''
         education: Education
         interests: ''
+        skills: Hobbies
     design:
       # Avatar customization
       avatar:

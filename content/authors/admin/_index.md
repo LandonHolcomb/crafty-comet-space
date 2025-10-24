@@ -73,22 +73,23 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
+      - name: Playing Pool (Billiards)
+        percent: 85
+        icon: trophy
+      - name: Reading & Writing
+        percent: 90
+        icon: book-open
+      - name: Building PCs & Hardware Projects
+        percent: 85
+        icon: cpu-chip
       - name: Hiking & Travel
         percent: 80
         icon: person-simple-walk
-      - name: Writing & Teaching
-        percent: 85
-        icon: book-open
-      - name: Building PCs & Hardware Projects
-        percent: 90
-        icon: cpu-chip
 
 # Languages
 languages:
   - name: English
     percent: 100
-  - name: Spanish
-    percent: 40
 
 # Awards (optional; fill later if relevant)
 # awards:
