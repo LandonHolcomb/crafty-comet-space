@@ -20,7 +20,7 @@ sections:
         - **Quantum circuit optimization**
         - **Open-source tools and educational resources**
         
-        *Projects will be added as they become available.*
+        *Projects will be added as they become available. I'm working on them :)*
     design:
       columns: '1'
   - block: collection

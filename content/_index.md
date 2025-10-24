@@ -94,7 +94,7 @@ sections:
       text: |-
         One of my main goals is making quantum computing more accessible through teaching and science communication. I'm developing educational materials, tutorials, and resources for students and anyone interested! Keep an eye out for future updates.
 
-        Beyond quantum computing, I've had 
+        Beyond quantum computing, I've had the opprotunity to teach astronomy and physics courses over several semesters during my masters. 
         
         **Teaching Experience:**
         - **Teaching Assistant - Physics** | Clemson University (2024)
