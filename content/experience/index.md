@@ -1,5 +1,5 @@
 ---
-title: '💼 Experience'
+title: 'Experience'
 date: 2024-05-19
 type: landing
 
@@ -10,7 +10,7 @@ design:
 sections:
   - block: experience
     content:
-      title: 💼 Professional Experience
+      title: Professional Experience
       subtitle: ''
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format

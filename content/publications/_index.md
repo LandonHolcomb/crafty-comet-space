@@ -1,5 +1,5 @@
 ---
-title: 📄 Publications
+title: Publications
 subtitle: Research papers and preprints
 type: landing
 
@@ -45,7 +45,7 @@ sections:
     id: publications-earlier
     content:
       title: Earlier Work
-      subtitle: '🎓 Undergraduate Research Papers (Collaborative Projects)'
+      subtitle: 'Undergraduate Research (Texas A&M)'
       text: 'The following publications are from my undergraduate research in physics at Texas A&M University, where I contributed to collaborative experimental and computational projects.'
       filters:
         folders:

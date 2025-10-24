@@ -1,5 +1,5 @@
 ---
-title: ✍️ Blog & Research Notes
+title: Blog & Research Notes
 subtitle: Thoughts on quantum computing, machine learning, and research
 view: article-grid
 ---

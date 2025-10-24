@@ -23,15 +23,13 @@ sections:
         education: Education
         interests: ''
     design:
-      # Apply a gradient background
-      css_class: hbx-bg-gradient
       # Avatar customization
       avatar:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '⚛️ Research Focus'
+      title: 'Research Focus'
       subtitle: ''
       text: |-
         My research sits at the intersection of **quantum computing, machine learning, and algorithm design**. I work on:
@@ -47,7 +45,7 @@ sections:
   - block: collection
     id: publications
     content:
-      title: 📄 Current Research Publications
+      title: Current Research Publications
       subtitle: 'PhD Work - Quantum Computing & Machine Learning'
       text: ''
       filters:
@@ -62,7 +60,7 @@ sections:
   - block: collection
     id: publications-undergrad
     content:
-      title: 🎓 Earlier Work
+      title: Earlier Work
       subtitle: 'Undergraduate Research - Exoplanet Spectroscopy (Texas A&M)'
       text: 'Collaborative research on the Exoplanet Transmission Spectroscopy Imager (ETSI) for characterizing exoplanet atmospheres.'
       filters:
@@ -76,7 +74,7 @@ sections:
   - block: collection
     id: blog
     content:
-      title: ✍️ Recent Posts & Notes
+      title: Recent Posts & Notes
       subtitle: ''
       text: ''
       page_type: blog
@@ -95,7 +93,7 @@ sections:
       view: card
   - block: markdown
     content:
-      title: '📚 Teaching & Outreach'
+      title: 'Teaching & Outreach'
       subtitle: ''
       text: |-
         I'm committed to making quantum computing more accessible through teaching and science communication. I develop educational materials, tutorials, and resources for students and researchers entering the field.
