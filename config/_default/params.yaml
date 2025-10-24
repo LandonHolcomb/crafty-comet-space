@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: indigo
+  color: purple  # Quantum-inspired color theme
 
 # SEO
 marketing:
@@ -55,6 +55,6 @@ locale:
 # Site features
 features:
   math:
-    enable: false
+    enable: true  # Enable LaTeX math rendering for quantum equations
   privacy_pack:
     enable: false

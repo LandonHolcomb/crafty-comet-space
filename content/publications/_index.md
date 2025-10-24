@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: 📄 Publications
 subtitle: Research papers and preprints
 cms_exclude: true
 

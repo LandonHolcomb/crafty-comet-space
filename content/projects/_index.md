@@ -1,5 +1,5 @@
 ---
-title: 'Research Projects'
+title: '🚀 Research Projects'
 date: 2024-05-19
 type: landing
 
@@ -10,7 +10,7 @@ design:
 sections:
   - block: markdown
     content:
-      title: Research Projects
+      title: 🚀 Research Projects
       subtitle: ''
       text: |-
         Here you'll find projects related to my research in quantum computing, machine learning, and quantum algorithms. This includes implementations, experiments, and explorations in:

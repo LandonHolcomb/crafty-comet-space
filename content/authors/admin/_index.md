@@ -19,7 +19,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD Student in Computer Science (Quantum Computing)
+role: PhD Student in Computer Science | Quantum Computing Researcher
 
 # Organizations/Affiliations
 organizations:
