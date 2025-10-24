@@ -6,7 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: '6rem'
+  spacing: '2rem'
 
 sections:
   - block: resume-biography-3
@@ -21,7 +21,7 @@ sections:
       headings:
         about: ''
         education: Education
-        interests: ''
+        interests: Interests
         skills: Hobbies
     design:
       # Avatar customization
