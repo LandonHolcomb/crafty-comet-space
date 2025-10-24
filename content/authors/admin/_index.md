@@ -91,16 +91,18 @@ languages:
     percent: 40
 
 # Awards (optional; fill later if relevant)
-awards:
-  - title: Graduate Research Fellowship
-    awarder: Clemson University
-    date: '2025-05-01'
-    summary: |
-      Recognized for outstanding early-stage research in quantum computing.
+# awards:
+#   - title: Award Name
+#     awarder: Organization
+#     date: 'YYYY-MM-DD'
+#     summary: |
+#       Brief description of the award.
 ---
 
-Landon Holcomb is a PhD student in Computer Science at Clemson University, where his research focuses on **quantum machine learning, variational quantum algorithms, and the trainability of hybrid quantum-classical systems**. He is particularly interested in bridging quantum computing with biophysics and other interdisciplinary domains.  
+## About Me
 
-Before transitioning to computer science, Landon completed his MS in Physics at Clemson, where he studied computational and experimental topics in biophysics. His broader goal is to advance quantum technologies that connect theory, experiment, and real-world impact.  
+I'm a PhD student in Computer Science at Clemson University, where I focus on **quantum machine learning, variational quantum algorithms, and trainability in hybrid quantum-classical systems**. My research explores the intersection of quantum computing, machine learning, and algorithm design—with applications in areas like natural language processing and biophysics.
 
-Outside of research, he enjoys hiking, writing, and developing educational materials for quantum computing courses and workshops.
+Before transitioning to computer science, I completed an MS in Physics at Clemson, working on computational and experimental problems in biophysics. I'm passionate about bridging theory and application, advancing quantum technologies, and making quantum computing more accessible through teaching and science communication.
+
+Outside the lab, you'll find me hiking, writing, or working on hardware projects.

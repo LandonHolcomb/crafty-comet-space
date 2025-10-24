@@ -31,30 +31,23 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '� Research Focus'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        My research sits at the intersection of **quantum computing, machine learning, and algorithm design**. I work on:
+        
+        - **Quantum Machine Learning (QML)**: Developing and analyzing variational quantum algorithms for machine learning tasks
+        - **Quantum Natural Language Processing (QNLP)**: Applying quantum circuits to NLP problems using compositional approaches
+        - **Trainability & Optimization**: Understanding and mitigating barren plateaus in variational quantum circuits
+        - **Quantum Applications in Biophysics**: Exploring how quantum algorithms can advance computational biophysics
+        
+        I'm passionate about bridging theory and application, and I'm always open to collaboration on quantum computing research.
     design:
       columns: '1'
   - block: collection
-    id: papers
+    id: publications
     content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
+      title: Publications
       text: ''
       filters:
         folders:
@@ -63,25 +56,13 @@ sections:
     design:
       view: citation
   - block: collection
-    id: talks
+    id: blog
     content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
+      title: Recent Posts & Notes
       subtitle: ''
       text: ''
-      # Page type to display. E.g. post, talk, publication...
       page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
       count: 5
-      # Filter on criteria
       filters:
         author: ''
         category: ''
@@ -90,14 +71,23 @@ sections:
         exclude_future: false
         exclude_past: false
         publication_type: ''
-      # Choose how many pages you would like to offset by
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
       view: card
-      # Reduce spacing
+  - block: markdown
+    content:
+      title: '📚 Teaching & Outreach'
+      subtitle: ''
+      text: |-
+        I'm committed to making quantum computing more accessible through teaching and science communication. I develop educational materials, tutorials, and resources for students and researchers entering the field.
+        
+        **Interests:**
+        - Quantum computing pedagogy
+        - Open educational resources
+        - Workshops and tutorials on Qiskit and PennyLane
+    design:
+      columns: '1'
       spacing:
         padding: [0, 0, 0, 0]
   - block: cta-card

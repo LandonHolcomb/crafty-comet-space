@@ -1,5 +1,5 @@
 ---
-title: 'Projects'
+title: 'Research Projects'
 date: 2024-05-19
 type: landing
 
@@ -11,8 +11,14 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Research Projects
+      text: |-
+        Here you'll find projects related to my research in quantum computing, machine learning, and quantum algorithms. This includes implementations, experiments, and explorations in:
+        
+        - Variational quantum algorithms and trainability
+        - Quantum natural language processing
+        - Quantum circuit optimization
+        - Open-source tools and educational resources
       filters:
         folders:
           - projects
