@@ -26,9 +26,8 @@ sections:
         folders:
           - publications
         exclude_featured: false
-        exclude:
-          tags:
-            - Undergraduate Work
+        exclude_tags:
+          - Undergraduate Work
     design:
       view: citation
   
