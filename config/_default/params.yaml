@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: light
-  color: minimal  # Using minimal theme with custom CSS overrides
+  color: ocean  # Using ocean theme with custom CSS overrides
 
 # SEO
 marketing:
