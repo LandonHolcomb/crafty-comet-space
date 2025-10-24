@@ -10,9 +10,12 @@ main:
   - name: Publications
     url: /#publications
     weight: 20
+  - name: Experience
+    url: /experience/
+    weight: 30
   - name: Blog
     url: /#blog
-    weight: 30
+    weight: 40
   - name: Projects
     url: /projects/
-    weight: 40
+    weight: 50

@@ -7,26 +7,31 @@ design:
   # Section spacing
   spacing: '5rem'
 
-# Page sections
 sections:
-  - block: collection
+  - block: markdown
     content:
       title: Research Projects
+      subtitle: ''
       text: |-
         Here you'll find projects related to my research in quantum computing, machine learning, and quantum algorithms. This includes implementations, experiments, and explorations in:
         
-        - Variational quantum algorithms and trainability
-        - Quantum natural language processing
-        - Quantum circuit optimization
-        - Open-source tools and educational resources
+        - **Variational quantum algorithms and trainability**
+        - **Quantum natural language processing**
+        - **Quantum circuit optimization**
+        - **Open-source tools and educational resources**
+        
+        *Projects will be added as they become available.*
+    design:
+      columns: '1'
+  - block: collection
+    content:
+      title: ''
+      text: ''
       filters:
         folders:
           - projects
+        exclude_featured: false
     design:
       view: article-grid
-      fill_image: false
       columns: 3
-      show_date: false
-      show_read_time: false
-      show_read_more: false
 ---
