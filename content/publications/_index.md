@@ -26,8 +26,6 @@ sections:
         folders:
           - publications
         exclude_featured: false
-        exclude_tags:
-          - Undergraduate Work
     design:
       view: citation
   
@@ -48,11 +46,8 @@ sections:
       text: 'The following publications are from my undergraduate research in physics at Texas A&M University, where I contributed to collaborative experimental and computational projects.'
       filters:
         folders:
-          - publications
-        featured_only: false
+          - publications-undergrad
         exclude_featured: false
-        tags:
-          - Undergraduate Work
     design:
       view: citation
 ---

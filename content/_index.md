@@ -52,8 +52,6 @@ sections:
         folders:
           - publications
         exclude_featured: false
-        exclude_tags:
-          - Undergraduate Work
     design:
       view: citation
   - block: collection
@@ -64,10 +62,8 @@ sections:
       text: 'Collaborative research on the Exoplanet Transmission Spectroscopy Imager (ETSI) for characterizing exoplanet atmospheres.'
       filters:
         folders:
-          - publications
+          - publications-undergrad
         exclude_featured: false
-        tags:
-          - Undergraduate Work
     design:
       view: citation
   - block: collection
