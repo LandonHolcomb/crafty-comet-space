@@ -42,7 +42,7 @@ interests:
   - Quantum Natural Language Processing (QNLP)
   - Variational Quantum Circuits & Trainability
   - Quantum Algorithms & Simulation
-  - Biophysics Applications of Quantum Computing
+  - Applications of Quantum Computing
 
 # Education
 education:
@@ -101,8 +101,6 @@ languages:
 
 ## About Me
 
-I'm a PhD student in Computer Science at Clemson University, where I focus on **quantum machine learning, variational quantum algorithms, and trainability in hybrid quantum-classical systems**. My research explores the intersection of quantum computing, machine learning, and algorithm design—with applications in areas like natural language processing and biophysics.
+I'm a PhD student in Computer Science at Clemson University, where I focus on **quantum machine learning, variational quantum algorithms, and Quantum Natural Language Processing**. My research explores the intersection of quantum computing, machine learning, and algorithm design.
 
-Before transitioning to computer science, I completed an MS in Physics at Clemson, working on computational and experimental problems in biophysics. I'm passionate about bridging theory and application, advancing quantum technologies, and making quantum computing more accessible through teaching and science communication.
-
-Outside the lab, you'll find me hiking, writing, or working on hardware projects.
+Before transitioning to computer science, I completed an MS in Physics at Clemson, working on computational Astrophysics. I'm passionate about bridging theory and application, and making quantum computing more accessible through teaching and science communication.
