@@ -12,7 +12,7 @@ sections:
       title: ''
       subtitle: ''
       text: |-
-        My current research focuses on quantum machine learning, variational quantum algorithms, and quantum natural language processing.
+        My current research focuses on **quantum computing, quantum machine learning, and quantum algorithms**.
     design:
       columns: '1'
   
@@ -20,7 +20,7 @@ sections:
     id: publications-current
     content:
       title: Current Research
-      subtitle: 'Quantum Computing & Machine Learning'
+      subtitle: 'PhD Work - Quantum Computing & Machine Learning'
       text: ''
       filters:
         folders:
@@ -32,12 +32,21 @@ sections:
     design:
       view: citation
   
+  - block: markdown
+    content:
+      title: ''
+      subtitle: ''
+      text: |-
+        ---
+    design:
+      columns: '1'
+  
   - block: collection
     id: publications-earlier
     content:
       title: Earlier Work
-      subtitle: 'Undergraduate Research'
-      text: ''
+      subtitle: '🎓 Undergraduate Research Papers (Collaborative Projects)'
+      text: 'The following publications are from my undergraduate research in physics at Texas A&M University, where I contributed to collaborative experimental and computational projects.'
       filters:
         folders:
           - publications
