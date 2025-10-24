@@ -6,7 +6,8 @@
 # Website name
 title: Landon Holcomb
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: "https://landonholcomb.github.io/"
+
 
 ############################
 ## LANGUAGE
