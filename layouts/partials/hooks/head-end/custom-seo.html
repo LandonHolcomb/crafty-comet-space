@@ -1,0 +1,66 @@
+<!-- JSON-LD Structured Data for Person/Researcher -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Landon Holcomb",
+  "url": "{{ .Site.BaseURL }}",
+  "image": "{{ .Site.BaseURL }}authors/admin/avatar.jpg",
+  "jobTitle": "PhD Student in Computer Science",
+  "worksFor": {
+    "@type": "EducationalOrganization",
+    "name": "Clemson University",
+    "url": "https://www.clemson.edu/"
+  },
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "Texas A&M University",
+      "url": "https://www.tamu.edu/"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "Clemson University",
+      "url": "https://www.clemson.edu/"
+    }
+  ],
+  "knowsAbout": [
+    "Quantum Computing",
+    "Quantum Machine Learning",
+    "Quantum Natural Language Processing",
+    "Variational Quantum Algorithms",
+    "Quantum Algorithm Design",
+    "Machine Learning",
+    "Computational Physics"
+  ],
+  "description": "PhD student in Computer Science at Clemson University researching quantum computing, quantum machine learning, and quantum natural language processing.",
+  "email": "lholco2@clemson.edu",
+  "sameAs": [
+    "https://github.com/LandonHolcomb",
+    "https://www.linkedin.com/in/landonholcomb"
+  ]
+}
+</script>
+
+<!-- Enhanced Meta Tags for SEO -->
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.marketing.seo.description }}{{ end }}">
+<meta name="keywords" content="{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}quantum computing, quantum machine learning, QML, QNLP, Landon Holcomb, Clemson University{{ end }}">
+<meta name="author" content="Landon Holcomb">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.marketing.seo.description }}{{ end }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}authors/admin/avatar.jpg">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="{{ .Permalink }}">
+<meta name="twitter:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.marketing.seo.description }}{{ end }}">
+<meta name="twitter:image" content="{{ .Site.BaseURL }}authors/admin/avatar.jpg">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ .Permalink }}">

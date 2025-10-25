@@ -1,8 +1,26 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: 'Landon Holcomb - Quantum Computing Researcher'
 date: 2022-10-24
 type: landing
+
+# SEO metadata
+description: 'Landon Holcomb is a PhD student in Computer Science at Clemson University researching quantum computing, quantum machine learning (QML), quantum natural language processing (QNLP), and variational quantum algorithms.'
+keywords: 
+  - Landon Holcomb
+  - quantum computing
+  - quantum machine learning
+  - QML
+  - QNLP
+  - quantum natural language processing
+  - variational quantum algorithms
+  - quantum algorithms
+  - Clemson University
+  - quantum research
+  - barren plateaus
+  - quantum circuits
+author: Landon Holcomb
+image: ''  # Will use your profile photo
 
 design:
   # Default section spacing

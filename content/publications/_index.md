@@ -2,6 +2,14 @@
 title: Publications
 subtitle: Research papers and preprints
 type: landing
+description: 'Research publications by Landon Holcomb in quantum computing, quantum machine learning, QNLP, exoplanet spectroscopy, and computational physics.'
+keywords:
+  - quantum computing research
+  - quantum machine learning papers
+  - QNLP research
+  - Landon Holcomb publications
+  - variational quantum algorithms
+  - quantum research papers
 
 design:
   spacing: '5rem'
