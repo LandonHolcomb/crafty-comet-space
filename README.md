@@ -1,192 +1,381 @@
-# Landon Holcomb's Academic Website# Landon Holcomb's Academic Website
+# Landon Holcomb's Academic Website# Landon Holcomb's Academic Website# Landon Holcomb's Academic Website
 
 
 
-[![Live Site](https://img.shields.io/badge/🌐_Live_Site-landonholcomb.github.io-blue)](https://landonholcomb.github.io)[![Live Site](https://img.shields.io/badge/🌐_Live_Site-landonholcomb.github.io-blue)](https://landonholcomb.github.io)
+[![Live Site](https://img.shields.io/badge/Live_Site-landonholcomb.com-blue)](https://landonholcomb.com)
 
-[![Built with Hugo](https://img.shields.io/badge/Built_with-Hugo-ff4088)](https://gohugo.io/)[![Built with Hugo](https://img.shields.io/badge/Built_with-Hugo-ff4088)](https://gohugo.io/)
+[![Built with Hugo](https://img.shields.io/badge/Built_with-Hugo-ff4088)](https://gohugo.io/)
 
-[![Theme](https://img.shields.io/badge/Theme-Hugo_Blox-00d4aa)](https://hugoblox.com)[![Theme](https://img.shields.io/badge/Theme-Hugo_Blox-00d4aa)](https://hugoblox.com)
-
-
-
-Personal academic website for Landon Holcomb, PhD student in Computer Science at Clemson University.Personal academic website for Landon Holcomb, PhD student in Computer Science at Clemson University.
+[![Theme](https://img.shields.io/badge/Theme-Hugo_Blox-00d4aa)](https://hugoblox.com)[![Live Site](https://img.shields.io/badge/🌐_Live_Site-landonholcomb.github.io-blue)](https://landonholcomb.github.io)[![Live Site](https://img.shields.io/badge/🌐_Live_Site-landonholcomb.github.io-blue)](https://landonholcomb.github.io)
 
 
 
-## 🎓 About## 🎓 About
+Personal academic website for Landon Holcomb, PhD student in Computer Science at Clemson University.[![Built with Hugo](https://img.shields.io/badge/Built_with-Hugo-ff4088)](https://gohugo.io/)[![Built with Hugo](https://img.shields.io/badge/Built_with-Hugo-ff4088)](https://gohugo.io/)
 
 
 
-This site showcases my research in:This site showcases my research in:
-
-- **Quantum Machine Learning (QML)**- **Quantum Machine Learning (QML)**
-
-- **Quantum Natural Language Processing (QNLP)**- **Quantum Natural Language Processing (QNLP)**
-
-- **Variational Quantum Algorithms**- **Variational Quantum Algorithms**
-
-- **Quantum Algorithm Design & Optimization**- **Quantum Algorithm Design & Optimization**
+## About[![Theme](https://img.shields.io/badge/Theme-Hugo_Blox-00d4aa)](https://hugoblox.com)[![Theme](https://img.shields.io/badge/Theme-Hugo_Blox-00d4aa)](https://hugoblox.com)
 
 
 
-## 🚀 Site Features## 🚀 Site Features
+This site showcases my research in:
+
+- **Quantum Machine Learning (QML)**
+
+- **Quantum Natural Language Processing (QNLP)**Personal academic website for Landon Holcomb, PhD student in Computer Science at Clemson University.Personal academic website for Landon Holcomb, PhD student in Computer Science at Clemson University.
+
+- **Variational Quantum Algorithms**
+
+- **Quantum Algorithm Design & Optimization**
 
 
 
-- **Research Profile**: Education, interests, and research focus- **Research Profile**: Education, interests, and research focus
-
-- **Publications**: BibTeX-powered publication management- **Publications**: BibTeX-powered publication management
-
-  - Current research (PhD work)  - Current research (PhD work)
-
-  - Earlier work (undergraduate research)  - Earlier work (undergraduate research)
-
-- **Blog**: Technical notes and tutorials on quantum computing- **Blog**: Technical notes and tutorials on quantum computing
-
-- **SEO Optimized**: JSON-LD structured data, meta tags, sitemap- **SEO Optimized**: JSON-LD structured data, meta tags, sitemap
-
-- **Responsive Design**: Mobile-friendly, professional layout- **Responsive Design**: Mobile-friendly, professional layout
+## Site Features## 🎓 About## 🎓 About
 
 
 
-## 🛠️ Tech Stack## 🛠️ Tech Stack
+- **Research Profile**: Education, interests, and research focus
+
+- **Publications**: BibTeX-powered publication management
+
+  - Current research (PhD work)This site showcases my research in:This site showcases my research in:
+
+  - Earlier work (undergraduate research)
+
+- **Blog**: Technical notes and tutorials on quantum computing- **Quantum Machine Learning (QML)**- **Quantum Machine Learning (QML)**
+
+- **SEO Optimized**: JSON-LD structured data, meta tags, sitemap
+
+- **Responsive Design**: Mobile-friendly, professional layout- **Quantum Natural Language Processing (QNLP)**- **Quantum Natural Language Processing (QNLP)**
 
 
+
+## Tech Stack- **Variational Quantum Algorithms**- **Variational Quantum Algorithms**
+
+
+
+- **Static Site Generator**: [Hugo](https://gohugo.io/)- **Quantum Algorithm Design & Optimization**- **Quantum Algorithm Design & Optimization**
+
+- **Theme**: [Hugo Blox Builder](https://hugoblox.com) (Academic CV template)
+
+- **Hosting**: GitHub Pages
+
+- **CI/CD**: GitHub Actions (automatic deployment)
+
+- **Analytics Ready**: Google Analytics & Plausible support## 🚀 Site Features## 🚀 Site Features
+
+
+
+## Project Structure
+
+
+
+```- **Research Profile**: Education, interests, and research focus- **Research Profile**: Education, interests, and research focus
+
+crafty-comet-space/
+
+├── config/_default/          # Site configuration- **Publications**: BibTeX-powered publication management- **Publications**: BibTeX-powered publication management
+
+│   ├── hugo.yaml            # Hugo settings
+
+│   ├── params.yaml          # Theme parameters  - Current research (PhD work)  - Current research (PhD work)
+
+│   └── menus.yaml           # Navigation menus
+
+├── content/                  # Site content  - Earlier work (undergraduate research)  - Earlier work (undergraduate research)
+
+│   ├── _index.md            # Homepage
+
+│   ├── authors/admin/       # Author profile- **Blog**: Technical notes and tutorials on quantum computing- **Blog**: Technical notes and tutorials on quantum computing
+
+│   ├── blog/                # Blog posts
+
+│   ├── publications/        # Current research- **SEO Optimized**: JSON-LD structured data, meta tags, sitemap- **SEO Optimized**: JSON-LD structured data, meta tags, sitemap
+
+│   └── publications-undergrad/  # Earlier work
+
+├── layouts/                  # Custom layouts- **Responsive Design**: Mobile-friendly, professional layout- **Responsive Design**: Mobile-friendly, professional layout
+
+│   ├── partials/hooks/      # SEO & custom HTML
+
+│   └── robots.txt           # Search engine directives
+
+├── static/uploads/          # CV and files
+
+└── assets/                  # Images and media## 🛠️ Tech Stack## 🛠️ Tech Stack
+
+```
+
+
+
+## Content Management
 
 - **Static Site Generator**: [Hugo](https://gohugo.io/)- **Static Site Generator**: [Hugo](https://gohugo.io/)
 
+### Adding Publications
+
 - **Theme**: [Hugo Blox Builder](https://hugoblox.com) (Academic CV template)- **Theme**: [Hugo Blox Builder](https://hugoblox.com) (Academic CV template)
+
+Use the provided BibTeX import script:
 
 - **Hosting**: GitHub Pages- **Hosting**: GitHub Pages
 
-- **CI/CD**: GitHub Actions (automatic deployment)- **CI/CD**: GitHub Actions (automatic deployment)
+```powershell
+
+python import_publications.py- **CI/CD**: GitHub Actions (automatic deployment)- **CI/CD**: GitHub Actions (automatic deployment)
+
+```
 
 - **Analytics Ready**: Google Analytics & Plausible support- **Analytics Ready**: Google Analytics & Plausible support
 
+Place `.bib` files in:
 
+- `content/publications/` for current research
+
+- `content/publications-undergrad/` for earlier work
 
 ## 📁 Project Structure## 📁 Project Structure
 
+See `PUBLICATIONS_GUIDE.md` for details.
 
+
+
+### Writing Blog Posts
 
 ``````
+
+Create new posts in `content/blog/`:
 
 crafty-comet-space/crafty-comet-space/
 
-├── config/_default/          # Site configuration├── config/_default/          # Site configuration
+```yaml
 
-│   ├── hugo.yaml            # Hugo settings│   ├── hugo.yaml            # Hugo settings
+---├── config/_default/          # Site configuration├── config/_default/          # Site configuration
 
-│   ├── params.yaml          # Theme parameters│   ├── params.yaml          # Theme parameters
+title: "Your Post Title"
 
-│   └── menus.yaml           # Navigation menus│   └── menus.yaml           # Navigation menus
+date: 2025-10-25│   ├── hugo.yaml            # Hugo settings│   ├── hugo.yaml            # Hugo settings
 
-├── content/                  # Site content├── content/                  # Site content
+description: "Brief description for SEO"
 
-│   ├── _index.md            # Homepage│   ├── _index.md            # Homepage
+keywords:│   ├── params.yaml          # Theme parameters│   ├── params.yaml          # Theme parameters
+
+  - quantum computing
+
+  - tutorial│   └── menus.yaml           # Navigation menus│   └── menus.yaml           # Navigation menus
+
+image: "featured.jpg"
+
+---├── content/                  # Site content├── content/                  # Site content
+
+
+
+Your content here...│   ├── _index.md            # Homepage│   ├── _index.md            # Homepage
+
+```
 
 │   ├── authors/admin/       # Author profile│   ├── authors/admin/       # Author profile
 
+## Local Development
+
 │   ├── blog/                # Blog posts│   ├── blog/                # Blog posts
+
+### Prerequisites
 
 │   ├── publications/        # Current research│   ├── publications/        # Current research
 
-│   └── publications-undergrad/  # Earlier work│   └── publications-undergrad/  # Earlier work
+- [Hugo Extended](https://gohugo.io/installation/) (v0.112.0+)
 
-├── layouts/                  # Custom layouts├── layouts/                  # Custom layouts
+- [Go](https://go.dev/dl/) (v1.19+)│   └── publications-undergrad/  # Earlier work│   └── publications-undergrad/  # Earlier work
 
-│   ├── partials/hooks/      # SEO & custom HTML│   ├── partials/hooks/      # SEO & custom HTML
 
-│   └── robots.txt           # Search engine directives│   └── robots.txt           # Search engine directives
+
+### Setup├── layouts/                  # Custom layouts├── layouts/                  # Custom layouts
+
+
+
+```powershell│   ├── partials/hooks/      # SEO & custom HTML│   ├── partials/hooks/      # SEO & custom HTML
+
+# Clone the repository
+
+git clone https://github.com/LandonHolcomb/landonholcomb.github.io.git│   └── robots.txt           # Search engine directives│   └── robots.txt           # Search engine directives
+
+cd landonholcomb.github.io
 
 ├── static/uploads/          # CV and files├── static/uploads/          # CV and files
 
-└── assets/                  # Images and media└── assets/                  # Images and media
+# Install dependencies
 
-``````
-
-
-
-## 📝 Content Management## 📝 Content Management
+hugo mod get -u└── assets/                  # Images and media└── assets/                  # Images and media
 
 
 
-### Adding Publications### Adding Publications
+# Run development server``````
+
+hugo server
+
+```
 
 
 
-Use the provided BibTeX import script:Use the provided BibTeX import script:
+Visit `http://localhost:1313` to preview.## 📝 Content Management## 📝 Content Management
 
 
+
+## SEO & Visibility
+
+
+
+### Implemented Features### Adding Publications### Adding Publications
+
+
+
+- **JSON-LD Structured Data** - Schema.org Person markup
+
+- **Meta Tags** - Title, description, keywords on all pages
+
+- **Open Graph** - Social media sharing optimizationUse the provided BibTeX import script:Use the provided BibTeX import script:
+
+- **Twitter Cards** - Rich tweet previews
+
+- **Sitemap** - Automatic generation at `/sitemap.xml`
+
+- **Robots.txt** - Search engine crawl instructions
 
 ```powershell```powershell
 
+### Indexing Status
+
 python import_publications.pypython import_publications.py
 
-``````
+To get indexed by search engines:
+
+1. Submit to [Google Search Console](https://search.google.com/search-console)``````
+
+2. Submit to [Bing Webmaster Tools](https://www.bing.com/webmasters)
+
+3. Submit sitemap: `https://landonholcomb.com/sitemap.xml`
 
 
 
-Place `.bib` files in:Place `.bib` files in:
-
-- `content/publications/` for current research- `content/publications/` for current research
-
-- `content/publications-undergrad/` for earlier work- `content/publications-undergrad/` for earlier work
+See `SEO_GUIDE.md` for complete instructions.Place `.bib` files in:Place `.bib` files in:
 
 
 
-See `PUBLICATIONS_GUIDE.md` for details.See `PUBLICATIONS_GUIDE.md` for details.
+## Customization- `content/publications/` for current research- `content/publications/` for current research
 
 
 
-### Writing Blog Posts### Writing Blog Posts
+### Theme Settings- `content/publications-undergrad/` for earlier work- `content/publications-undergrad/` for earlier work
 
 
 
-Create new posts in `content/blog/`:Create new posts in `content/blog/`:
+Edit `config/_default/params.yaml`:
+
+- Color scheme (currently: cyan)
+
+- Font optionsSee `PUBLICATIONS_GUIDE.md` for details.See `PUBLICATIONS_GUIDE.md` for details.
+
+- Analytics IDs
+
+- Footer content
 
 
 
-```yaml```yaml
+### Navigation Menu### Writing Blog Posts### Writing Blog Posts
 
-------
+
+
+Edit `config/_default/menus.yaml` to add/remove menu items.
+
+
+
+### Homepage SectionsCreate new posts in `content/blog/`:Create new posts in `content/blog/`:
+
+
+
+Edit `content/_index.md` to customize sections:
+
+- Biography & education
+
+- Research focus```yaml```yaml
+
+- Publications
+
+- Blog posts------
+
+- Teaching & outreach
 
 title: "Your Post Title"title: "Your Post Title"
 
+## Deployment
+
 date: 2025-10-25date: 2025-10-25
+
+The site auto-deploys via GitHub Actions when you push to `main`:
 
 description: "Brief description for SEO"description: "Brief description for SEO"
 
-keywords:keywords:
+```powershell
 
-  - quantum computing  - quantum computing
+git add -Akeywords:keywords:
+
+git commit -m "Your update message"
+
+git push origin main  - quantum computing  - quantum computing
+
+```
 
   - tutorial  - tutorial
 
+Changes go live at `https://landonholcomb.com` in ~2 minutes.
+
 image: "featured.jpg"image: "featured.jpg"
+
+## Documentation
 
 ------
 
+- **`SEO_GUIDE.md`** - SEO optimization & Google Search Console setup
 
+- **`PUBLICATIONS_GUIDE.md`** - BibTeX import system documentation
+
+- **`ANALYTICS_SETUP.md`** - Analytics configuration guide
 
 Your content here...Your content here...
 
+## Links
+
 ``````
 
+- **Live Site**: [landonholcomb.com](https://landonholcomb.com)
+
+- **GitHub**: [@LandonHolcomb](https://github.com/LandonHolcomb)
+
+- **LinkedIn**: [landonholcomb](https://www.linkedin.com/in/landonholcomb)
+
+- **Email**: lholco2@clemson.edu## 🔧 Local Development## 🔧 Local Development
 
 
-## 🔧 Local Development## 🔧 Local Development
+
+## License
 
 
 
-### Prerequisites### Prerequisites
+Content © 2025 Landon Holcomb. All rights reserved.### Prerequisites### Prerequisites
 
 
 
-- [Hugo Extended](https://gohugo.io/installation/) (v0.112.0+)- [Hugo Extended](https://gohugo.io/installation/) (v0.112.0+)
+Website theme: [Hugo Blox Builder](https://github.com/HugoBlox/hugo-blox-builder) (MIT License)
 
-- [Go](https://go.dev/dl/) (v1.19+)- [Go](https://go.dev/dl/) (v1.19+)
+
+
+---- [Hugo Extended](https://gohugo.io/installation/) (v0.112.0+)- [Hugo Extended](https://gohugo.io/installation/) (v0.112.0+)
+
+
+
+**Built with Hugo & Hugo Blox Builder**- [Go](https://go.dev/dl/) (v1.19+)- [Go](https://go.dev/dl/) (v1.19+)
+
 
 
 
