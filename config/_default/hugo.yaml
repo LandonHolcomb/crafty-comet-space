@@ -6,7 +6,7 @@
 # Website name
 title: Landon Holcomb
 # Website URL
-baseURL: "https://landonholcomb.github.io/"
+baseURL: "https://landonholcomb.com/"
 
 canonifyURLs: true
 relativeURLs: true
